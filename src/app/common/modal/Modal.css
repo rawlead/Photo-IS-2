@@ -1,0 +1,54 @@
+/* modal */
+.modal {
+  display: block;
+  opacity: 1 !important;
+  background-color:rgba(0, 0, 0, 0.6);
+}
+.user-photo-modal {
+  font-size: 0.9em;
+}
+.modal-content > .modal-body {
+  padding: 0;
+}
+.modal-body > h5 {
+  position: absolute;
+  top: 5px;
+}
+.modal-body  h5  a  img {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+.modal-footer {
+  justify-content: start;
+  border: none;
+  padding: 0.5rem;
+}
+.modal-footer .close {
+  margin-right: 0.5rem;
+  font-size: 2.2em;
+}
+.modal-date-label {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  color: #fff;
+  text-shadow: 0.07em 0 black,
+  0 0.07em black,
+  -0.07em 0 black,
+  0 -0.07em black;
+}
+.modal-body a img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  border: none;
+}
+*::-webkit-scrollbar {
+  background-color: #1E1E24;
+  width: 2px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #EEB902;
+  width: 2px;
+}

@@ -1,0 +1,95 @@
+.signForm {
+  opacity: 0.9;
+  margin: 25px 0 15px 0;
+  display: block;
+  font-size: 0.875em;
+  position: relative;
+}
+.alert-warning {
+  background-color: #5E0B15;
+}
+.alert-success {
+  background-color: #297045;
+}
+.signForm h2 {
+  text-align: center;
+}
+.form-control-placeholder {
+  position: absolute;
+  top: 0;
+  padding: 12px 15px 0 18px;
+  transition: all 200ms;
+  color: #CDD3CE;
+  cursor: text;
+}
+.signForm a {
+  float: right;
+  font-weight: bold;
+  color: #1E1E24;
+  display: block;
+}
+.signForm a:hover {
+  color: #26262d;
+}
+.data-input {
+  margin-bottom: 5px;
+  width: 100%;
+  outline: none;
+  padding: 4px 15px;
+  border-radius: 5px;
+  height: 46px;
+  background-color: #26262d;
+  color: #CDD3CE;
+  display: block;
+  border: 2px solid #CDD3CE;
+}
+.data-input:focus {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #1E1E24;
+  color: #fff;
+  border-color: #EEB902;
+}
+.signForm button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #fff;
+  background-color: #1E1E24;
+}
+.data-input:hover {
+  background-color: #1E1E24;
+  color: #ffffff;
+}
+.form-control-placeholder:hover {
+  color: #fff;
+}
+.alert {
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  border-radius: 10px;
+  opacity: 0.9;
+  color: #CDD3CE;
+}
+.form-group {
+  position: relative;
+}
+.form-group:hover label {
+  color: #fff;
+}
+.form-control:focus + .form-control-placeholder,
+.form-control:valid + .form-control-placeholder {
+  font-size: 85%;
+  transform: translate3d(0, -100%, 0);
+  opacity: 1;
+  color: #1E1E24;
+  font-weight: bold;
+}
+#signInRoot {
+  min-height: 100%;
+  background: url("../../assets/signin-background.jpg") no-repeat center;
+  background-size: cover;
+}
+#signupRoot {
+  min-height: 100%;
+  background: url("../../assets//signup-background.jpg") no-repeat center;
+  background-size: cover;
+}
