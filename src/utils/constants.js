@@ -1,5 +1,6 @@
 const PORT = '';
-const BASE_URL = 'http://photois.us-east-1.elasticbeanstalk.com'
+const BASE_URL = 'https://www.ivans.tech'
+// const BASE_URL = 'http://photois.us-east-1.elasticbeanstalk.com'
 
 // const PORT = 5000;
 // const BASE_URL = 'http://localhost'

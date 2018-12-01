@@ -34,10 +34,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "main": "index.js",
-  "devDependencies": {},
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  ]
 }
